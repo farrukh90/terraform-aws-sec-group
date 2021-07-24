@@ -1,5 +1,5 @@
 module "secgr" {
-  source = "farrukh90/sec-group/aws
+  source = "../"
   region      = "us-east-1"
   name        = "allow-tls"
   description = "allow-tls"
